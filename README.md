@@ -12,10 +12,10 @@ The project is hosted [here]() on GitHub pages.
 _Note: when you go to this link the URL will change to gracielundell.com/project name. This is because I use github pages to host my website already._
 
 ##Technologies Used
--HTML
--CSS/Bootstrap
--JavaScript
--jQuery
+HTML
+CSS/Bootstrap
+JavaScript
+jQuery
 
 ##Legal
 Copyright (c) 2015 Gracie Lundell This software is licensed under the GPL license.

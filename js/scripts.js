@@ -10,17 +10,16 @@ $(document).ready(function() {
     var question6 = parseInt($("select#sell6").val());
 
     var total = question1 + question2 + question3 + question4 + question5 + question6;
-    console.log("total = ", total);
 
-    if (total <= 3) {
+    if (question1 === 0 || question2 === 0 || question3 === 0 || question4 === 0 || question5 === 0 || question6 === 0) {
       alert("You haven't answered all the questions!")
     }
 
-    else if (total === 4 || total <= 6) {
+    else if (total <= 6) {
       $(".amazon").show();
       $("body").addClass("amazon-background");
     }
-    else if (total === 6 || total <= 12) {
+    else if (total < 6 || total <= 12) {
       $(".nepal").show();
       $("body").addClass("nepal-background");
     }

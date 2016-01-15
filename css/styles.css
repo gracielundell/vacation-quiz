@@ -14,3 +14,7 @@ img {
   padding: 10px;
   text-align: center;
 }
+
+.form-control {
+  width: 35%;
+}

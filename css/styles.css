@@ -13,8 +13,25 @@ img {
 .jumbotron {
   padding: 10px;
   text-align: center;
+  background-color: white;
 }
 
 .form-control {
   width: 35%;
+}
+
+.amazon-background {
+  background-color: #d9f2d9;
+}
+
+.nepal-background {
+  background-color: #ccf3ff;
+}
+
+.oregon-background {
+  background-color: #ffd1b3;
+}
+
+.jamaica-background {
+  background-color: #adebeb;
 }

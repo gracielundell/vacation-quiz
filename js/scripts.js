@@ -12,20 +12,25 @@ $(document).ready(function() {
     var total = question1 + question2 + question3 + question4 + question5 + question6;
     console.log("total = ", total);
 
-    //if/else branches based on where answer falls in a range
-    // if total <= 5 ....
-    // else if total <= 10 && total >= 6 ....
-    if (total <= 6) {
+    if (total <= 3) {
+      alert("You haven't answered all the questions!")
+    }
+
+    else if (total === 4 || total <= 6) {
       $(".amazon").show();
+      $("body").addClass("amazon-background");
     }
     else if (total === 6 || total <= 12) {
       $(".nepal").show();
+      $("body").addClass("nepal-background");
     }
     else if (total === 13 || total <= 18) {
       $(".oregon").show();
+      $("body").addClass("oregon-background");
     }
     else if (total === 19 || total <= 24) {
       $(".jamaica").show();
+      $("body").addClass("jamaica-background");
     }
 
 
